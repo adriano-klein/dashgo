@@ -1,4 +1,4 @@
-import { Button, Flex, FormLabel, Stack } from "@chakra-ui/react";
+import { Button, Flex, Stack, Text } from "@chakra-ui/react";
 import { Input } from "../components/Form/Input";
 import { SubmitHandler, useForm } from "react-hook-form"
 
@@ -47,6 +47,7 @@ export default function SignIn() {
           >
             Entrar
         </Button>
+        <Text fontSize='xs' mt='2'>Esqueceu sua senha?</Text>
       </Flex>
     </Flex>
   )
