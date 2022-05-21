@@ -33,8 +33,6 @@ const previousPages = currentPage > 1
   const nextPages = currentPage < lastPage
   ? generatePagesArray(currentPage, Math.min(currentPage + siblingsCount, lastPage))
   : [];
-  
-  console.log('Next pages is:', nextPages)
 
   return(
     <Stack
